@@ -4,3 +4,48 @@
   box-sizing: border-box;
   font-family: 'Sora', sans-serif;
 }
+
+.debug .container{
+  border: 1px solid white;
+  height:80px;
+}
+
+.debug .hero{
+  height:1500px;
+}
+
+.navbar-left{
+  height: 90vh;
+  width: 200px;
+  background-color: black;
+}
+
+.fixed-l{
+  position: fixed;
+  left: 0;
+  z-index: 998;
+}
+
+.fixed-b{
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+
+.navbar-bottom{
+width: 100vw;
+height: 120px;
+border: 1px solid black;
+background-color: #282828;
+}
+
+.upgrade{
+  background-color: #080b12;
+  width: 100%;
+}
+
+
+.hero{
+   background-color: #141922;
+   width: 100%;
+}
