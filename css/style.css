@@ -518,10 +518,24 @@ background-color: #282828;
 
 }
 
+
 .dot{
   background-color:#1bd760;
   height: 2px;
   width: 2em;
   margin: auto;
+}
+.cont-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.brano{
 
+}
+
+.square{
+  height: 150px;
+  width: 150px;
+  background-color: pink;
 }
