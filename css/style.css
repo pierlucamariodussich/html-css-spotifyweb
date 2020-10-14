@@ -7,7 +7,7 @@
 
 .debug .container{
   border: 1px solid white;
-  height:80px;
+  height: 80px;
 }
 
 .debug .hero{
@@ -315,16 +315,14 @@
   color:#656565;
 }
 .green{
-  color:#adff2f;
+  color:#1bd760;
 }
 /* structure */
 
 .navbar-left{
-  height: 90vh;
+  height: calc(100vh - 100px);
   width: 200px;
   background-color: black;
-
-
 }
 
 .fixed-l{
@@ -341,7 +339,7 @@
 
 .navbar-bottom{
 width: 100vw;
-height: 120px;
+height: 100px;
 border: 1px solid black;
 background-color: #282828;
 }
@@ -359,7 +357,11 @@ background-color: #282828;
 
 .upgrade{
   background-color: #080b12;
+  width: calc(100vw - 200px);
   height: 80px;
+  position:fixed;
+  top:0;
+  right:0;
 }
 
 .icon{
@@ -395,7 +397,7 @@ background-color: #282828;
 
 }
 .selection{
-  border-left:  2px solid #adff2f;
+  border-left:  2px solid #1bd760;
   color:white
 }
 
@@ -410,7 +412,7 @@ background-color: #282828;
 }
 
 .noselection:hover{
-  border-left:  2px solid #adff2f;
+  border-left:  2px solid #1bd760;
   color:white
 }
 
@@ -439,14 +441,11 @@ background-color: #282828;
   display: inline-block;
 }
 
-.user{
-  position:relative;
-  top:0;
-}
 
 .user a {
   text-decoration: none;
   font-size: 12px;
+
 }
 
 .user a:hover {
@@ -455,4 +454,74 @@ background-color: #282828;
 .user > span {
   font-size: 15px;
   font-weight: 700;
+}
+
+.playlist{
+  height: 100%;
+}
+ .over{
+   height:50%;
+   overflow-y:auto;
+}
+
+.navbar-left .row{
+  height: calc(100% - 90px ) ;
+  min-height: 410px;
+  overflow:hidden;
+}
+
+.login{
+  height:90px;
+  background-color:black;
+}
+
+/* hero */
+.upgrade .container::after{
+  content:"";
+  display:table;
+  clear: both;
+}
+.upgrade button{
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  font-weight: bolder;
+  float: right;
+}
+
+.upgrade button:hover{
+  border: 0px;
+  background-color: #1bd760 ;
+  color: #080b12;
+}
+
+.music-menu ul{
+  list-style: none;
+  text-align: center;
+}
+
+.music-menu ul li{
+  display: inline-block;
+  text-align: center;
+}
+
+.music-menu ul li a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 20px;
+  float: left;
+
+
+}
+
+.dot{
+  background-color:#1bd760;
+  height: 2px;
+  width: 2em;
+  margin: auto;
+
 }
