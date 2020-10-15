@@ -520,6 +520,7 @@ justify-content: space-between;
 .music-menu ul li{
   display: inline-block;
   text-align: center;
+  line-height: 50px;
 }
 
 .music-menu ul li a{
@@ -646,6 +647,7 @@ justify-content: space-between;
 
 
 
+
 /* musicbar */
 
 /* FOOTER */
@@ -750,4 +752,160 @@ justify-content: space-between;
 
 
 
-/* media quesri  */
+/* media quary  */
+
+@media screen and (min-width:1001px){
+
+
+
+
+  .logo-icon{
+    display:none;
+  }
+
+  .fa-lg{
+    display:none;
+  }
+}
+
+@media screen and (min-width:751px)and (max-width:1000px){
+
+  .brano{
+   width: calc(100% / 4);
+   padding-left: 5px;
+   padding-right: 5px;
+
+  }
+
+
+  .logo-icon{
+    display:none;
+  }
+
+  .fa-lg{
+    display:none;
+  }
+}
+@media screen and (min-width:591px)and (max-width:750px){
+
+
+  .brano{
+   width: calc(100% / 4);
+   padding-left: 5px;
+   padding-right: 5px;
+
+  }
+
+
+  .logo-icon{
+    display:none;
+  }
+
+  .fa-lg{
+    display:none;
+  }
+}
+
+
+@media screen and (max-width:590px){
+
+    .navbar-left{
+      height: calc(100vh - 100px);
+      width: 80px;
+      background-color: black;
+    }
+
+    .navbar-bottom .player-bar{
+    width: 100vw;
+    min-width: 600px;
+    height: 100px;
+    background-color: #282828;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .hero{
+       background-color: #141922;
+       width: calc(100vw - 80px);
+       position: absolute;
+       right: 0;
+       z-index:997;
+    }
+
+    .upgrade{
+      background-color: #080b12;
+      width: calc(100vw - 80px);
+      height: 80px;
+      position:fixed;
+      top:0;
+      right:0;
+      z-index: 999;
+    }
+
+    .icon{
+      width: 30px;
+      height: 30px;
+    }
+
+    .logo-normal {
+      display:none;
+    }
+
+    .logo-icon {
+      height: 30px;
+      width: 30px;
+      margin-left: 23px;
+      margin-right:50px;
+    }
+
+    .menu > li{
+      list-style-type: none;
+    }
+
+    .menu > li  > a > span {
+      display:none;
+    }
+    .user{
+      padding-bottom:50px;
+    }
+    .user > a > span {
+      display:none;
+    }
+
+    .fa.fa-lg{
+      font-size:35px;
+    }
+
+    .playlist{
+      display:none;
+    }
+
+    .cerchio{
+      height: 30px;
+      width: 30px;
+      background-color:#656565;
+      border-radius: 50%;
+      text-align: center;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cerchio > img {
+      height: 80%;
+      width: 80%;
+    }
+
+
+    /* hero */
+
+    .brano{
+     width: calc(100% / 2);
+     padding-left: 5px;
+     padding-right: 5px;
+
+    }
+
+
+}
