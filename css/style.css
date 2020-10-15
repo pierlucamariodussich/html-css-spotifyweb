@@ -611,8 +611,7 @@ justify-content: space-between;
 }
 
 .circle{
-  width: 150px;
-  height: 150px;
+  width: 100%;
   border-radius: 50%;
   position: relative;
 }
@@ -637,20 +636,14 @@ justify-content: space-between;
 
 
 
-.youg{
-  background-image: url( ../img/youg.jpeg );
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: block;
+.circle > img {
+  width: 100%;
+  display:block;
+  border-radius: 50%
 }
-.enaudi{
-  background-image: url( ../img/einaudi.jpeg );
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: block;
-}
+
+
+
 
 
 /* musicbar */
@@ -658,7 +651,6 @@ justify-content: space-between;
 /* FOOTER */
 
 .cont-left {
-
   display: flex;
   flex-direction: row;
   align-items: center;
